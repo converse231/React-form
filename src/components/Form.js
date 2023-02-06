@@ -55,7 +55,7 @@ export const Form = () => {
         {errors.password && <p>{errors.password.message}</p>}
         <input
           type="password"
-          placeholder="Confirm Password..."
+          placeholder="Confirm mo Password mo 123..."
           {...register("confirmPassword")}
         />
         {errors.confirmPassword && <p>{errors.confirmPassword.message}</p>}
